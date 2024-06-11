@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:debug-env": "ts-node src/config/config.ts",
+    "start:application": "ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,9 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "discord.js": "^14.15.3"
+    "axios": "^1.7.2",
+    "discord-rpc": "^4.0.1",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
   }
 }
