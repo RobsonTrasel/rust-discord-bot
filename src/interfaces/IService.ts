@@ -1,4 +1,3 @@
 export interface IService {
-  getStatus(): Promise<string>;
-  getWipeInfo(): Promise<string>;
+  execute(...args: any[]): Promise<string>;
 }
